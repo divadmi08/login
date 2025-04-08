@@ -1,0 +1,67 @@
+body {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:sans-serif;
+    background-image: url(img/mountains-1985027.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #00f;
+    font-size: 250%;
+    text-shadow: 2px 2px 4px rgb(94, 94, 162);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00f;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00f;
+    border: none;
+    margin: 10px 0 15px 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055ff;
+}
+
+.login-container a{
+    text-decoration: none;
+    color:#0055ff ;
+}
+.login-container a:hover{
+    color: #00f ;
+}
